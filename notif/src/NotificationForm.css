@@ -1,0 +1,18 @@
+.notification-form {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .form-title {
+    margin-bottom: 20px;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+  }
+  
+  .notification-message {
+    margin-top: 20px;
+    color: green;
+  }
+  
