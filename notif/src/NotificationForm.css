@@ -25,6 +25,7 @@
     font-weight: bold;
     border: none;
     border-radius: 5px;
+    transition: background 0.3s ease-in-out;
   }
   
   .notification-message {
