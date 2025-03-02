@@ -38,3 +38,14 @@
   color: #28a745;
   font-weight: bold;
 }
+
+/* Target the input field inside the form */
+.notification-form .email-input {
+  margin-bottom: 15px !important;  /* Force the margin to apply */
+}
+
+/* Adjust the button spacing */
+.notification-form .submit-button {
+  margin-top: 15px;
+}
+
