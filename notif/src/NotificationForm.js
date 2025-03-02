@@ -28,7 +28,8 @@ const NotificationForm = () => {
 
   const sendEmailNotification = (email) => {
     const templateParams = {
-      to_email: email,
+      to_email: email,  // Email entered by the user (recipient)
+      from_name: "Nabha", // You can change this to a dynamic value if needed
     };
 
     emailjs.send(
