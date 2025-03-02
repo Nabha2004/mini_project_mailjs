@@ -26,10 +26,13 @@ const NotificationForm = () => {
     });
   };
 
+  //added 
   const sendEmailNotification = (email) => {
     const templateParams = {
       to_email: email,  // Email entered by the user (recipient)
       from_name: "Nabha", // You can change this to a dynamic value if needed
+      to_name: email.split('@')[0], // Extracts name from email (e.g., "john" from "john@example.com")
+
     };
 
     emailjs.send(
